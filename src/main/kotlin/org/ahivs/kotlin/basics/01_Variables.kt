@@ -1,5 +1,7 @@
 package org.ahivs.kotlin.basics
 
+import org.ahivs.kotlin.basics.sealedtest.Expr
+
 fun variableDeclaration() {
     //mutable variables
     var streetName: String
@@ -12,3 +14,5 @@ fun variableDeclaration() {
     //non mutable variables
     val address: String = "High street"
 }
+
+

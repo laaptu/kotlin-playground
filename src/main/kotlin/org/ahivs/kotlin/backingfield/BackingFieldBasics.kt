@@ -7,6 +7,10 @@ class Person {
         get() {
             return _age++
         }
+    var name:String = "Tom Cruise"
+        private set(value)  {
+            field = value
+        }
 }
 
 fun main() {
