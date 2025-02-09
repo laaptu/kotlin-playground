@@ -11,6 +11,12 @@ fun <T : Actor> getActor() {
 
 inline fun <reified T : Actor> getActorReified() {
     println("Actor T is guessed = ${T::class.java}")
+    when (T::class.java) {
+        Hero::class.java -> println("This is Hero")
+        Heroine::class.java -> println("This is Heroine")
+        else -> println("This is Actor")
+    }
+
 }
 
 
